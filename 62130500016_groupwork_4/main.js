@@ -22,8 +22,7 @@ const app = {
             this.textSearch = '';
         },
         bigPic(index) {
-            this.bigPictureSrc = this.tasks[index].url
-            console.log(this.bigPictureSrc)
+            this.bigPictureSrc = this.tasks[index].image
             this.isBigPicture = true
         },
         search() {
